@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Frontend Mentor - News homepage solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The challenge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./screenshot.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [Add solution URL here](https://github.com/eyon24/news-hp-fm-react)
+- Live Site URL: [Add live site URL here](https://eyon24.github.io/news-hp-fm-react/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+For the structure of building this project, I decided to seperate each component into it's own file. I have a Components folder and a CSS folder so that it would be easier to manage what I was working on / where I would need to make changes. In my opinion, it made it much easier to work in as I was constantly making corrections to my code, and I knew exactly how to find it.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+One mistake I made was with the separation of the css. When I media queried for the Destop View, I put a media query in each component's css. I think I would it would have been better to keep that together in the App.css to easily make any changes.
 
-## Learn More
+One part of the code that I was excited about was the Modal. Using a modal for a menu is a great design, and creating a simple one is very easy yet effective.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```css
+.nav-menu {
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  left: 110%;
+  transition: left 0.3s ease-in-out;
+  top: 0;
+  z-index: 3;
+}
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+.--opened {
+  left: 30%;
+  transition: left 0.3s ease-in-out;
+}
+```
 
-### Code Splitting
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+I, like a lot of learners, heavily focused on flexbox while learning css. I started writing code before thinking enough about using grid for better efficiency on the Desktop Version. I was struggling to contain the components onto one page, which isn't neccessary, but is something I would have liked to do for smaller desktop displays. I have not used grid much, and it would have been much easier to style if I had taken time to plan it before hand. In the future, I would like to be just as comfortable using grid, as I am with flexbox.
 
-### Analyzing the Bundle Size
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Example resource 1](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me with understanding the properties of CSS Grid. It is a great resource to have handy while styling using grid.
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- github - [Eric Yon](https://www.github.com/eyon24)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/eyon24)
