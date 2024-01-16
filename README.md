@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/eyon24/news-hp-fm-react)
-- Live Site URL: [Add live site URL here](https://eyon24.github.io/news-hp-fm-react/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/news-homepage-using-react-XQKCOOyz2k)
+- Live Site URL: [Live Site](https://eyon24.github.io/news-hp-fm-react/)
 
 ## My process
 
@@ -80,5 +80,5 @@ I, like a lot of learners, heavily focused on flexbox while learning css. I star
 
 ## Author
 
-- github - [Eric Yon](https://www.github.com/eyon24)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/eyon24)
+- Github - [Eric Yon](https://www.github.com/eyon24)
+- Frontend Mentor - [@yeyon24](https://www.frontendmentor.io/profile/eyon24)
