@@ -1,0 +1,42 @@
+.nav-menu {
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  left: 110%;
+  transition: left 0.3s ease-in-out;
+  top: 0;
+  z-index: 3;
+}
+
+.--opened {
+  left: 30%;
+  transition: left 0.3s ease-in-out;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 150%;
+  padding-top: 10rem;
+  gap: 2rem;
+}
+
+.nav-menu__background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #808080;
+  opacity: 0%;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.--gray {
+  opacity: 50%;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+}
