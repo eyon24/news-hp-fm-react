@@ -81,4 +81,4 @@ I, like a lot of learners, heavily focused on flexbox while learning css. I star
 ## Author
 
 - Github - [Eric Yon](https://www.github.com/eyon24)
-- Frontend Mentor - [@yeyon24](https://www.frontendmentor.io/profile/eyon24)
+- Frontend Mentor - [@eyon24](https://www.frontendmentor.io/profile/eyon24)
